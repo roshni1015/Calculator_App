@@ -1,0 +1,1294 @@
+.test {
+  position: absolute;
+  width: 175px;
+  height: 36px;
+  left: 167px;
+  top: 138px;
+  text-align: end;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  background: #F7F8FB;
+  border: 1px solid #F7F8FB;
+
+  /* identical to box height */
+
+
+  color: #818181;
+}
+
+.answer {
+  position: absolute;
+  width: 171px;
+  height: 72px;
+  left: 171px;
+  top: 180px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  background: #F7F8FB;
+  border: 1px solid#F7F8FB;
+
+  /* identical to box height */
+
+
+  color: #424242;
+
+}
+
+.test1 {
+  position: absolute;
+  width: 175px;
+  height: 36px;
+  left: 167px;
+  top: 138px;
+  text-align: end;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  border: 1px solid linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+  ;
+
+  background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+  color: #818181;
+}
+
+.answer1 {
+  position: absolute;
+  width: 171px;
+  height: 72px;
+  left: 171px;
+  top: 180px;
+  background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+  border: 1px solid linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+  ;
+
+  color: #FFFFFF;
+
+}
+
+.container {
+  position: absolute;
+  width: 1237px;
+  height: 1037px;
+  left: 363px;
+  top: 163px;
+  background: #d3f3ea;
+
+
+}
+
+.ellipse {
+  position: absolute;
+  width: 874px;
+  border-radius: 50%;
+  height: 874px;
+  left: 163px;
+  top: 83px;
+  background: #109DFF;
+}
+
+.calculator1 {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  left: 15px;
+  top: 18px;
+
+  background: #F7F8FB;
+  backdrop-filter: blur(51px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 39px;
+}
+
+.calculator2 {
+
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  left: 434px;
+  top: 54px;
+
+  background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+  border-radius: 39px;
+
+}
+
+.buttone {
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 40px;
+  left: 34px;
+  top: 330px;
+  font-weight: 900%;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  color: #7CC9FF;
+  border-radius: 16px;
+}
+
+.buttonu {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 40px;
+  left: 116px;
+  top: 330px;
+  font-weight: 900%;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  color: #7CC9FF;
+  border-radius: 16px;
+
+}
+
+.buttonsin {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 40px;
+  left: 198px;
+  top: 330px;
+  font-weight: 900%;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  color: #7CC9FF;
+  border-radius: 16px;
+
+
+}
+
+.buttondig {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 40px;
+  left: 280px;
+  top: 330px;
+  font-weight: 900%;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  color: #7CC9FF;
+  border-radius: 16px;
+
+}
+
+.buttonAC {
+
+  width: 42px;
+  height: 48px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+
+  color: #858585;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 34px;
+  top: 386px;
+
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.buttoncan {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 116px;
+  text-align: center;
+  font-size: xx-large;
+  color: #109DFF;
+  top: 386px;
+  border: 1px solid #FFFFFF;
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border-radius: 16px;
+  background-image: ('download.png');
+}
+
+.buttonsal {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 198px;
+  top: 386px;
+  color: #109DFF;
+  text-align: center;
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border-radius: 16px;
+  font-size: xx-large;
+  background: #ADE2FF;
+  border: 1px solid #FFFFFF;
+
+}
+
+.buttonstar {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 280px;
+  top: 386px;
+  color: #109DFF;
+  text-align: center;
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border-radius: 16px;
+  font-size: xx-large;
+  background: #ADE2FF;
+  border: 1px solid #FFFFFF;
+
+}
+
+.button7 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 34px;
+  top: 470px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.button7 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 34px;
+  top: 470px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.button8 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 116px;
+  top: 470px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.button9 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 198px;
+  top: 470px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.buttonmin {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 280px;
+  top: 470px;
+  background: #ADE2FF;
+
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.button4 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 34px;
+  top: 546px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.button5 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 116px;
+  top: 546px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.button6 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 198px;
+  top: 546px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.buttonmax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 96px;
+  left: 280px;
+  top: 552px;
+  border: 1px solid #FFFFFF;
+
+  background: #ADE2FF;
+  border-radius: 12px;
+}
+
+.button1 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 34px;
+  top: 622px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.button2 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 116px;
+  top: 622px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.button3 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 198px;
+  top: 622px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.buttoneql {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 96px;
+  left: 280px;
+  top: 674px;
+  border: 1px solid #FFFFFF;
+
+  background: #19ACFF;
+  box-shadow: -9px 13px 23px rgba(0, 163, 255, 0.65), inset -3px 4px 11px #B0DFFF;
+  border-radius: 12px;
+}
+
+.button0 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 144px;
+  height: 60px;
+  left: 34px;
+  top: 712px;
+
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border: 1px solid #FFFFFF;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.buttondot {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 198px;
+  top: 710px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border-radius: 16px;
+  border: 1px solid #FFFFFF;
+
+}
+
+
+.Cbuttone {
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 40px;
+  left: 34px;
+  top: 330px;
+  font-weight: 900%;
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  color: #7CC9FF;
+  border-radius: 16px;
+}
+
+.Cbuttonu {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 40px;
+  left: 116px;
+  top: 330px;
+  font-weight: 900%;
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  color: #7CC9FF;
+  border-radius: 16px;
+
+}
+
+.Cbuttonsin {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 40px;
+  left: 198px;
+  top: 330px;
+  font-weight: 900%;
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  color: #7CC9FF;
+  border-radius: 16px;
+
+
+}
+
+.Cbuttondig {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 40px;
+  left: 280px;
+  top: 330px;
+  font-weight: 900%;
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+  color: #7CC9FF;
+  border-radius: 16px;
+
+}
+
+.CbuttonAC {
+
+  width: 42px;
+  height: 48px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+
+  color: #858585;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 34px;
+  top: 386px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbuttoncan {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 116px;
+  text-align: center;
+  font-size: xx-large;
+  top: 386px;
+  background: #303136;
+  border-radius: 16px;
+  color: #109DFF;
+
+
+}
+
+.Cbuttonsal {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 198px;
+  top: 386px;
+  color: #109DFF;
+  text-align: center;
+  background: linear-gradient(129.7deg, rgba(255, 255, 255, 0.6) -9.69%, rgba(255, 255, 255, 0.4) 114.23%);
+  border-radius: 16px;
+  font-size: xx-large;
+  background: #005DB2;
+
+}
+
+.Cbuttonstar {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 280px;
+  top: 386px;
+  color: #109DFF;
+  text-align: center;
+  background: #005DB2;
+  border-radius: 16px;
+  font-size: xx-large;
+
+}
+
+.Cbutton7 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 34px;
+  top: 470px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbutton7 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 34px;
+  top: 470px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbutton8 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 116px;
+  top: 470px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbutton9 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 198px;
+  top: 470px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbuttonmin {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 280px;
+  top: 470px;
+
+  background: #005DB2;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbutton4 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 34px;
+  top: 546px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbutton5 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 116px;
+  top: 546px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbutton6 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 198px;
+  top: 546px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbuttonmax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 96px;
+  left: 280px;
+  top: 552px;
+
+  background: #005DB2;
+  border-radius: 12px;
+}
+
+.Cbutton1 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 34px;
+  top: 622px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbutton2 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 116px;
+  top: 622px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbutton3 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 60px;
+  left: 198px;
+  top: 622px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbuttoneql {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 62px;
+  height: 96px;
+  left: 280px;
+  top: 674px;
+  color: #B2DAFF;
+
+  background: #1991FF;
+  border-radius: 12px;
+}
+
+.Cbutton0 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 10px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  position: absolute;
+  width: 144px;
+  height: 60px;
+  left: 34px;
+  top: 712px;
+
+  background: #303136;
+  backdrop-filter: blur(6px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+}
+
+.Cbuttondot {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 198px;
+  top: 710px;
+  font-size: xx-large;
+  color: #38B9FF;
+  text-align: center;
+  background: #303136;
+  border-radius: 16px;
+
+}
